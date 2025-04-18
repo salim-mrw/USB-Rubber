@@ -1,4 +1,4 @@
-#include "usbrubber.h"
+#include <usbrubber.h>
 
 /*
 * This function simulates the keyboard shortcut to open PowerShell 
@@ -22,11 +22,12 @@ void loop(){
   flag = Serial.read();
   switch(flag){
   
-    case '1':
+    case 1:
     
     ur.press("WIN"); // FOR WIN KEY.
     ur.print("POWERSHELL"); // Write Statement POWERSHELL to open POWERSHELL window.
     ur.press("ENTER"); // FOR ENTER KEY.
+    ur.end();
 
     break;
   }
