@@ -52,8 +52,8 @@ namespace usb_rubber{
       uint16_t _KY = 0x59; //Y key
       uint16_t _KZ = 0x5A; //Z key
 
-      uint16_t _ENTER = 0xE0;
-      uint16_t _WIN = 0x83;
+      uint16_t _ENTER = 0xE0 //ENTER key;
+      uint16_t _WIN = 0x83; //WIN key
 
     public:
 
