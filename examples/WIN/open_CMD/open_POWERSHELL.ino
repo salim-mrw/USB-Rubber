@@ -1,5 +1,3 @@
-#include <Wire.h>
-
 #include "usbrubber.h"
 
 /*
@@ -26,10 +24,10 @@ void loop(){
   
     case '1':
     
-    ur.press('11'); // FOR WIN KEY.
-    ur.press('R'); // FOR R KEY.
-    ur.print('POWERSHELL'); // Write Statement POWERSHELL to open POWERSHELL window.
-    ur.press('10'); // FOR ENTER KEY.
+    ur.press("WIN"); // FOR WIN KEY.
+    ur.press("R"); // FOR R KEY.
+    ur.print("POWERSHELL"); // Write Statement POWERSHELL to open POWERSHELL window.
+    ur.press("ENTER"); // FOR ENTER KEY.
 
     break;
   }
