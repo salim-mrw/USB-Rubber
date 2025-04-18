@@ -9,6 +9,49 @@ Arduino library allows you to send keyboard codes to the computer using simple f
 
 Clone this repo or download the ZIP and install it via Arduino IDE.
 
+## Key Table Supported
+| الاسم Key Name      | القيمة Value |
+|------------------------|----------------|
+| 0 Key                 | K0             |
+| 1 Key                 | K1             |
+| 2 Key                 | K2             |
+| 3 Key                 | K3             |
+| 4 Key                 | K4             |
+| 5 Key                 | K5             |
+| 6 Key                 | K6             |
+| 7 Key                 | K7             |
+| 8 Key                 | K8             |
+| 9 Key                 | K9             |
+| A Key                 | KA             |
+| B Key                 | KB             |
+| C Key                 | KC             |
+| D Key                 | KD             |
+| E Key                 | KE             |
+| F Key                 | KF             |
+| G Key                 | KG             |
+| H Key                 | KH             |
+| I Key                 | KI             |
+| J Key                 | KJ             |
+| K Key                 | KK             |
+| L Key                 | KL             |
+| M Key                 | KM             |
+| N Key                 | KN             |
+| O Key                 | KO             |
+| P Key                 | KP             |
+| Q Key                 | KQ             |
+| R Key                 | KR             |
+| S Key                 | KS             |
+| T Key                 | KT             |
+| U Key                 | KU             |
+| V Key                 | KV             |
+| W Key                 | KW             |
+| X Key                 | KX             |
+| Y Key                 | KY             |
+| Z Key                 | KZ             |
+| Enter Key             | ENTER          |
+| Windows Key (WIN)     | WIN            |
+
+
 ## Example
 
 ```cpp
