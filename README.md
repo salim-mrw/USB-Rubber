@@ -11,6 +11,17 @@ Arduino library allows you to send keyboard codes to the computer using simple f
 Clone this repo or download the ZIP and install it via Arduino IDE.
 
 
+## Compatibility
+
+This library is compatible with the following boards:
+
+- Arduino Leonardo
+- Arduino Micro
+- Arduino Nano (ATmega32u4-based only)
+
+> This library requires native USB support and works only with ATmega32u4-based boards.
+
+
 ## Key Table Supported
 
 This table shows all the supported key constants provided by the usbrubber class.  
