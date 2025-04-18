@@ -9,12 +9,12 @@
 
 int flag;
 
-usbrubber ur_obj;
+usbrubber ur;
 
 void setup(){
 
   Serial.begin(9600);
-  ur_obj.begin();
+  ur.begin();
   
 }
 
@@ -25,7 +25,6 @@ void loop(){
     case '1':
     
     ur.press("WIN"); // FOR WIN KEY.
-    ur.press("R"); // FOR R KEY.
     ur.print("POWERSHELL"); // Write Statement POWERSHELL to open POWERSHELL window.
     ur.press("ENTER"); // FOR ENTER KEY.
 
