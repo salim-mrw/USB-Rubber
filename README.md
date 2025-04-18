@@ -96,7 +96,7 @@ void loop(){
     ur.press("WIN"); // FOR WIN KEY.
     ur.print("POWERSHELL"); // Write Statement POWERSHELL to open POWERSHELL window.
     ur.press("ENTER"); // FOR ENTER KEY.
-
+    ur.end();
     break;
   }
 }
