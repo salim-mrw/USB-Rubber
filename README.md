@@ -74,7 +74,7 @@ The following functions are available in the usbrubber class for interacting wit
 
 
 ```cpp
-#include "usbrubber.h"
+#include <usbrubber.h>
 
 int flag;
 
@@ -91,7 +91,7 @@ void loop(){
   flag = Serial.read();
   switch(flag){
   
-    case '1':
+    case 1:
     
     ur.press("WIN"); // FOR WIN KEY.
     ur.print("POWERSHELL"); // Write Statement POWERSHELL to open POWERSHELL window.
