@@ -16,7 +16,7 @@ Clone this repo or download the ZIP and install it via Arduino IDE.
 This table shows all the supported key constants provided by the usbrubber class.  
 You can use these constants to simulate keystrokes using the press() function.
 
-| الاسم Key Name      | القيمة Value |
+|  Key Name      |  Value |
 |------------------------|----------------|
 | 0 Key                 | 0             |
 | 1 Key                 | 1             |
