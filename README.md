@@ -67,9 +67,10 @@ The following functions are available in the usbrubber class for interacting wit
 | begin()       | Initializes the keyboard (wraps Keyboard.begin()).                        |
 | print(text)   | Sends a string of text as if typed by a keyboard.                           |
 | press(key)    | Presses a single key using one of the key constants listed above.           |
+| end()       | end the keyboard (wraps Keyboard.end()).                        |
 
 
-## Example
+## Example open POWERSHELL
 
 
 ```cpp
