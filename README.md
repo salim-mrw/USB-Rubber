@@ -11,7 +11,7 @@ Clone this repo or download the ZIP and install it via Arduino IDE.
 
 ## Example
 
-`cpp
+```cpp
 #include <Wire.h>
 
 #include "usbrubber.h"
@@ -41,3 +41,9 @@ void loop(){
     break;
   }
 }
+```
+
+
+
+
+
