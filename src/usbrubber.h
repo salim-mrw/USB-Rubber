@@ -1,6 +1,10 @@
 #ifndef USBRUBBER_H
 #define USBRUBBER_H
 
+#if !defined(AVR_ATmega32U4)
+  #error "This library only works on ATmega32U4-based boards like Leonardo or Micro."
+#endif
+
 #include <Arduino.h>
 #include <Keyboard.h>
 
