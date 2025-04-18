@@ -10,6 +10,7 @@ Arduino library allows you to send keyboard codes to the computer using simple f
 Clone this repo or download the ZIP and install it via Arduino IDE.
 
 ## Key Table Supported
+
 | الاسم Key Name      | القيمة Value |
 |------------------------|----------------|
 | 0 Key                 | K0             |
