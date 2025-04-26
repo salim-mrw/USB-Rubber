@@ -7,6 +7,8 @@
 * followed by entering the command "powershell" and then hitting Enter.
 */
 
+using namespace usb_rubber;
+
 int flag;
 
 usbrubber ur;
